@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding:0 100px;
+}
+
+.logo{
+    padding:0 5px;
+    color: white;
+}
+
+.links{
+    display: flex;
+    gap: 15px;  
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.villain{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clap{
+    display: flex;
+}
+
+.summary p{
+    color: white;
+    padding: 0;
+    font-size: 15px;
+    margin: 0;
+}
+.summary .head{
+    font-size: 24px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 2px 20px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.major{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+    padding: 70px;
+}
+
+.minor{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.minortext{
+    display: flex;
+    justify-content: center;
+}
+
+.clap1{
+    align-items: center;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.major.center{
+    background-color: lightgrey;
+}
+
+.two{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.major.last{
+    background-color: #3882F6;
+    padding: 30px;
+    margin: 70px;
+    border-radius: 5px;
+    color: white;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.minor.img{
+    align-items: center;
+}
